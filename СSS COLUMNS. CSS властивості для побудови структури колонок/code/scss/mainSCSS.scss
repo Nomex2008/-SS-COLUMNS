@@ -1,0 +1,43 @@
+.wrapper {
+}
+.page {
+}
+.example > div {
+    margin: 20px 0;
+}
+.text{
+    column-count: 3;
+    column-width: 300px;
+    column-gap: 0.5rem;
+}
+.text2{
+    columns: 3 300px;
+    column-gap: 0.5rem;
+    column-rule: 3px solid gray;
+
+    column-fill: auto;
+
+    height: 200px;
+}
+.text3{
+    columns: 2 300px;
+    column-gap: 50px;
+    column-rule: 3px dashed gray;
+}
+.text3 h2{
+    background-color: greenyellow;
+    padding: 15px;
+    color: #fff;
+    margin: 20px 0;
+    column-span: all;
+
+    text-align: center;
+}
+.text3 span{
+    color: green;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.text3 p{
+    break-inside: avoid;
+}

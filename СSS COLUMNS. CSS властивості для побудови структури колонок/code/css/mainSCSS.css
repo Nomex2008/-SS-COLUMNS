@@ -1,0 +1,66 @@
+.example > div {
+  margin: 20px 0;
+}
+
+.text {
+  -webkit-column-count: 3;
+     -moz-column-count: 3;
+          column-count: 3;
+  -webkit-column-width: 300px;
+     -moz-column-width: 300px;
+          column-width: 300px;
+  -webkit-column-gap: 0.5rem;
+     -moz-column-gap: 0.5rem;
+          column-gap: 0.5rem;
+}
+
+.text2 {
+  -webkit-columns: 3 300px;
+     -moz-columns: 3 300px;
+          columns: 3 300px;
+  -webkit-column-gap: 0.5rem;
+     -moz-column-gap: 0.5rem;
+          column-gap: 0.5rem;
+  -webkit-column-rule: 3px solid gray;
+     -moz-column-rule: 3px solid gray;
+          column-rule: 3px solid gray;
+  -webkit-column-fill: auto;
+     -moz-column-fill: auto;
+          column-fill: auto;
+  height: 200px;
+}
+
+.text3 {
+  -webkit-columns: 2 300px;
+     -moz-columns: 2 300px;
+          columns: 2 300px;
+  -webkit-column-gap: 50px;
+     -moz-column-gap: 50px;
+          column-gap: 50px;
+  -webkit-column-rule: 3px dashed gray;
+     -moz-column-rule: 3px dashed gray;
+          column-rule: 3px dashed gray;
+}
+
+.text3 h2 {
+  background-color: greenyellow;
+  padding: 15px;
+  color: #fff;
+  margin: 20px 0;
+  -webkit-column-span: all;
+     -moz-column-span: all;
+          column-span: all;
+  text-align: center;
+}
+
+.text3 span {
+  color: green;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.text3 p {
+  -webkit-column-break-inside: avoid;
+     -moz-column-break-inside: avoid;
+          break-inside: avoid;
+}
